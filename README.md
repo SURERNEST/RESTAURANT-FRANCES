@@ -83,7 +83,3 @@ cd frontend
 npm start
 # La app web correrá en: http://localhost:3001 (o similar)
 ```
-
------
-
-```
