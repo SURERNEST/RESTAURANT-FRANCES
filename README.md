@@ -87,5 +87,3 @@ npm start
 -----
 
 ```
-¿Te gustaría que te ayude con el siguiente paso, que sería empezar con el código del componente **`MenuDigital.js`** para que el Miembro B tenga código base?
-```
