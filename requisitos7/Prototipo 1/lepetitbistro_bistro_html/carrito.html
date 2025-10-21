@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi pedido — Le Petit Bistro</title>
+  <link rel="stylesheet" href="css/style-bistro.css">
+</head>
+<body>
+
+<div class="navbar">
+  <div class="container navbar-inner">
+    <a class="brand" href="index.html">Le Petit Bistro <small>Santiago</small></a>
+    <nav class="nav-links">
+      <a href="index.html">Inicio</a>
+      <a href="menu.html">Menú</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="contacto.html">Reservas</a>
+      <a class="cta" href="carrito.html">Mi pedido</a>
+    </nav>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container">
+    <h2>Mi pedido</h2>
+    <table class="table" id="lista-carrito">
+      <thead>
+        <tr><th>Imagen</th><th>Nombre</th><th>Precio</th></tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <div style="display:grid;grid-template-columns:1fr 320px;gap:18px;margin-top:18px">
+      <div></div>
+      <div class="total-box">
+        <div>Subtotal: <b id="subtotal">$0</b></div>
+        <div>IVA (19%): <b id="iva">$0</b></div>
+        <div>Total: <b id="total">$0</b></div>
+        <div style="display:flex; gap:10px; margin-top:12px">
+          <a href="#" id="vaciar-carrito" class="btn" style="background:#999">Vaciar</a>
+          <a href="contacto.html" class="btn">Confirmar pedido</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container cols">
+    <div>
+      <h3 style="color:#fff;margin:0 0 10px;font-family:'Playfair Display',serif">Le Petit Bistro</h3>
+      <p>Un rincón de Francia en Providencia, Santiago. Cocina de temporada con productos locales.</p>
+    </div>
+    <div>
+      <h4 style="color:#fff;margin:0 0 10px">Secciones</h4>
+      <a href="menu.html">Menú</a><br>
+      <a href="contacto.html">Reservas</a><br>
+      <a href="nosotros.html">Nosotros</a>
+    </div>
+    <div>
+      <h4 style="color:#fff;margin:0 0 10px">Contacto</h4>
+      <a href="mailto:contacto@lepetitbistro.cl">contacto@lepetitbistro.cl</a><br>
+      <span>+56 9 1234 5678</span><br>
+      <span>Av. Providencia 1234, Santiago</span>
+    </div>
+    <div>
+      <h4 style="color:#fff;margin:0 0 10px">Horario</h4>
+      <span>Mar–Sáb 13:00–23:00</span><br>
+      <span>Dom 13:00–17:00</span>
+    </div>
+  </div>
+  <div class="copy">© 2025 Le Petit Bistro — Hecho con amour</div>
+</footer>
+
+<script src="js/carrito.js"></script>
+</body>
+</html>

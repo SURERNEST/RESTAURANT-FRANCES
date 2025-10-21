@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menú — Le Petit Bistro</title>
+  <link rel="stylesheet" href="css/style-bistro.css">
+</head>
+<body>
+
+<div class="navbar">
+  <div class="container navbar-inner">
+    <a class="brand" href="index.html">Le Petit Bistro <small>Santiago</small></a>
+    <nav class="nav-links">
+      <a href="index.html">Inicio</a>
+      <a href="menu.html">Menú</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="contacto.html">Reservas</a>
+      <a class="cta" href="carrito.html">Mi pedido</a>
+    </nav>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container">
+    <h2>Entradas <span class="badge">Para compartir</span></h2>
+    <div class="menu-grid" id="lista-entradas">
+      <article class="menu-item">
+        <img src="https://images.unsplash.com/photo-1505577058444-a3dab90d4253?q=80&w=1600&auto=format&fit=crop" alt="Soupe à l'oignon">
+        <div>
+          <h4>Soupe à l'oignon</h4>
+          <p>Clásica sopa de cebolla con queso gratinado.</p>
+          <div class="precio">$7900</div>
+        </div>
+        <a href="#" class="agregar-carrito btn" data-id="E1">Agregar</a>
+      </article>
+      <article class="menu-item">
+        <img src="https://images.unsplash.com/photo-1589308078053-e068dc2834a5?q=80&w=1600&auto=format&fit=crop" alt="Quiche Lorraine">
+        <div>
+          <h4>Quiche Lorraine</h4>
+          <p>Tarta salada de tocino y queso gruyère.</p>
+          <div class="precio">$8500</div>
+        </div>
+        <a href="#" class="agregar-carrito btn" data-id="E2">Agregar</a>
+      </article>
+    </div>
+
+    <h2 style="margin-top:28px">Plato Principal</h2>
+    <div class="menu-grid" id="lista-principales">
+      <article class="menu-item">
+        <img src="https://images.unsplash.com/photo-1542442828-287225f52a7f?q=80&w=1600&auto=format&fit=crop" alt="Coq au vin">
+        <div>
+          <h4>Coq au vin</h4>
+          <p>Ave al vino tinto con champiñones.</p>
+          <div class="precio">$14900</div>
+        </div>
+        <a href="#" class="agregar-carrito btn" data-id="P1">Agregar</a>
+      </article>
+      <article class="menu-item">
+        <img src="https://images.unsplash.com/photo-1523986371872-9d3ba2e2f642?q=80&w=1600&auto=format&fit=crop" alt="Ratatouille">
+        <div>
+          <h4>Ratatouille</h4>
+          <p>Estofado de verduras provenzal. <i>(Veg)</i></p>
+          <div class="precio">$10900</div>
+        </div>
+        <a href="#" class="agregar-carrito btn" data-id="P2">Agregar</a>
+      </article>
+    </div>
+
+    <h2 style="margin-top:28px">Postres</h2>
+    <div class="menu-grid" id="lista-postres">
+      <article class="menu-item">
+        <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?q=80&w=1600&auto=format&fit=crop" alt="Crème brûlée">
+        <div>
+          <h4>Crème brûlée</h4>
+          <p>Clásico francés con costra de azúcar caramelizada.</p>
+          <div class="precio">$6500</div>
+        </div>
+        <a href="#" class="agregar-carrito btn" data-id="D1">Agregar</a>
+      </article>
+      <article class="menu-item">
+        <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=1600&auto=format&fit=crop" alt="Tarte Tatin">
+        <div>
+          <h4>Tarte Tatin</h4>
+          <p>Tarta de manzana caramelizada con crema.</p>
+          <div class="precio">$6900</div>
+        </div>
+        <a href="#" class="agregar-carrito btn" data-id="D2">Agregar</a>
+      </article>
+    </div>
+
+    <h2 style="margin-top:28px">Vinos</h2>
+    <div class="menu-grid" id="lista-vinos">
+      <article class="menu-item">
+        <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c76d1?q=80&w=1600&auto=format&fit=crop" alt="Bordeaux">
+        <div>
+          <h4>Bordeaux AOC</h4>
+          <p>Tinto seco, fruta negra y taninos suaves.</p>
+          <div class="precio">$14900</div>
+        </div>
+        <a href="#" class="agregar-carrito btn" data-id="V1">Agregar</a>
+      </article>
+      <article class="menu-item">
+        <img src="https://images.unsplash.com/photo-1524594224089-8e0f8dfd7080?q=80&w=1600&auto=format&fit=crop" alt="Chablis">
+        <div>
+          <h4>Chablis</h4>
+          <p>Blanco mineral, fresco, perfecta acidez.</p>
+          <div class="precio">$15900</div>
+        </div>
+        <a href="#" class="agregar-carrito btn" data-id="V2">Agregar</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container cols">
+    <div>
+      <h3 style="color:#fff;margin:0 0 10px;font-family:'Playfair Display',serif">Le Petit Bistro</h3>
+      <p>Un rincón de Francia en Providencia, Santiago. Cocina de temporada con productos locales.</p>
+    </div>
+    <div>
+      <h4 style="color:#fff;margin:0 0 10px">Secciones</h4>
+      <a href="menu.html">Menú</a><br>
+      <a href="contacto.html">Reservas</a><br>
+      <a href="nosotros.html">Nosotros</a>
+    </div>
+    <div>
+      <h4 style="color:#fff;margin:0 0 10px">Contacto</h4>
+      <a href="mailto:contacto@lepetitbistro.cl">contacto@lepetitbistro.cl</a><br>
+      <span>+56 9 1234 5678</span><br>
+      <span>Av. Providencia 1234, Santiago</span>
+    </div>
+    <div>
+      <h4 style="color:#fff;margin:0 0 10px">Horario</h4>
+      <span>Mar–Sáb 13:00–23:00</span><br>
+      <span>Dom 13:00–17:00</span>
+    </div>
+  </div>
+  <div class="copy">© 2025 Le Petit Bistro — Hecho con amour</div>
+</footer>
+
+<script src="js/carrito.js"></script>
+</body>
+</html>

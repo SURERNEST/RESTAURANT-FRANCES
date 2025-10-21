@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crear — Le Petit Bistro</title>
+  <link rel="stylesheet" href="css/style-bistro.css">
+</head>
+<body>
+
+<div class="navbar">
+  <div class="container navbar-inner">
+    <a class="brand" href="index.html">Le Petit Bistro <small>Santiago</small></a>
+    <nav class="nav-links">
+      <a href="index.html">Inicio</a>
+      <a href="menu.html">Menú</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="contacto.html">Reservas</a>
+      <a class="cta" href="carrito.html">Mi pedido</a>
+    </nav>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container">
+    <h2>Crear ítems</h2>
+
+    <div class="cards">
+      <div class="card">
+        <div class="card-body">
+          <h3>Agregar Plato</h3>
+          <form id="formProducto">
+            <div style="display:grid; gap:10px">
+              <input placeholder="Nombre del plato" required style="padding:10px;border:1px solid #ddd;border-radius:10px">
+              <input placeholder="Descripción" required style="padding:10px;border:1px solid #ddd;border-radius:10px">
+              <input type="number" placeholder="Precio" required style="padding:10px;border:1px solid #ddd;border-radius:10px">
+              <input placeholder="Imagen (URL)" style="padding:10px;border:1px solid #ddd;border-radius:10px">
+              <button class="btn" type="submit">Guardar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h3>Agregar Usuario</h3>
+          <form id="formUsuario">
+            <div style="display:grid; gap:10px">
+              <input placeholder="Nombre" required style="padding:10px;border:1px solid #ddd;border-radius:10px">
+              <input type="email" placeholder="Email" required style="padding:10px;border:1px solid #ddd;border-radius:10px">
+              <input type="password" placeholder="Contraseña" required style="padding:10px;border:1px solid #ddd;border-radius:10px">
+              <button class="btn" type="submit">Guardar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container cols">
+    <div>
+      <h3 style="color:#fff;margin:0 0 10px;font-family:'Playfair Display',serif">Le Petit Bistro</h3>
+      <p>Un rincón de Francia en Providencia, Santiago. Cocina de temporada con productos locales.</p>
+    </div>
+    <div>
+      <h4 style="color:#fff;margin:0 0 10px">Secciones</h4>
+      <a href="menu.html">Menú</a><br>
+      <a href="contacto.html">Reservas</a><br>
+      <a href="nosotros.html">Nosotros</a>
+    </div>
+    <div>
+      <h4 style="color:#fff;margin:0 0 10px">Contacto</h4>
+      <a href="mailto:contacto@lepetitbistro.cl">contacto@lepetitbistro.cl</a><br>
+      <span>+56 9 1234 5678</span><br>
+      <span>Av. Providencia 1234, Santiago</span>
+    </div>
+    <div>
+      <h4 style="color:#fff;margin:0 0 10px">Horario</h4>
+      <span>Mar–Sáb 13:00–23:00</span><br>
+      <span>Dom 13:00–17:00</span>
+    </div>
+  </div>
+  <div class="copy">© 2025 Le Petit Bistro — Hecho con amour</div>
+</footer>
+
+<script src="js/crear.js"></script>
+</body>
+</html>
